@@ -4,7 +4,7 @@
 This is a simple static one page website project.
 
 The site is deployed via **Netlify** and the production URL is:  
-👉 https://valhalla-run.lamine-dia.de
+👉 https://www.valhalla-run.de
 
 ---
 
