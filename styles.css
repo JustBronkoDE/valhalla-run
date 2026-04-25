@@ -245,6 +245,17 @@ small.credits {
   margin-top: 10px;
   opacity: 0.85;
 }
+.link {
+  color: var(--accent);
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+.missing-gear {
+  color: var(--warn);
+  text-decoration: underline;
+}
 @media (max-width: 980px) {
   .hero-grid,
   .day-grid,
