@@ -1,556 +1,1128 @@
-<html lang="de"><head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Valhalla Run – Skandinavien Motorradreise</title>
-<link rel="stylesheet" href="styles.css">
+<html lang="de">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Valhalla Run – Skandinavien Motorradreise</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-<header class="hero" id="top">
-  <div class="wrap hero-grid">
-    <div>
-      <span class="badge">Personal Travel Guide</span>
-      <h1>Der Valhalla Run<br><span style="font-size:smaller; color: var(--muted)">Skandinavien auf zwei Rädern.</span></h1>
-      <p class="sub">Start in Flensburg, dann per Fähre entspannt nach Helsinki, durch Finnland hoch zum Nordkap, kompakt auf die Lofoten, runter über Atlantic Ocean Road und Trollstigen, zurück durch Schwedens Wälder. Ohne Autobahn. Mit viel Natur. Mit Zelt, Hotels im richtigen Rhythmus und Etappen, die sich fahren statt nur planen lassen.</p>
-    </div>
-    <div class="panel stats">
-      <div class="stat"><b>17–18 Tage</b><span>genau dein Sweet Spot</span></div>
-      <div class="stat"><b>200–350 km</b><span>am Tag, ohne Stress</span></div>
-      <div class="stat"><b>Nordkap Pflicht</b><span>Lofoten kompakt, Norwegen im Fokus</span></div>
-      <div class="stat"><b>Zelt + Hotel</b><span>bewusster Mix statt Hardcore-Durchziehen</span></div>
-    </div>
-  </div>
-</header>
-
-<nav class="topnav">
-  <div class="wrap">
-    <a href="#idee">Reiselogik</a>
-    <a href="#rhythmus">Tagesrhythmus</a>
-    <a href="#etappen">Etappen</a>
-    <a href="#camping">Camping &amp; Hotels</a>
-    <a href="#wandern">Wandern</a>
-    <a href="#packliste">Packliste</a>
-    <a href="#fehler">Fehler vermeiden</a>
-  </div>
-</nav>
-
-<section id="idee">
-  <div class="wrap">
-    <h2>Warum diese Route zu dir passt</h2>
-    <p class="lead">Du wolltest nicht die schnellste Runde, sondern die richtige. Deshalb beginnt die Reise mit einer Fähre und nicht mit Hetze. Finnland bringt dich in den Rhythmus. Das Nordkap gibt dir einen klaren Fixpunkt. Norwegen liefert die großen Bilder und die starken Straßen. Schweden fängt dich auf dem Rückweg wieder weich auf.</p>
-    <div class="grid">
-      <article class="card panel"><h3>Entspannter Start</h3><p>Die Fähre ist bei deinem Stil kein Umweg, sondern der perfekte Reset.</p></article>
-      <article class="card panel"><h3>Finnland als Flow-Zone</h3><p>Seen, Wälder, Weite – ideal, um in der Reise anzukommen.</p></article>
-      <article class="card panel"><h3>Nordkap als Satzzeichen</h3><p>Nicht der schönste Punkt, aber das stärkste Ziel der ersten Woche.</p></article>
-      <article class="card panel"><h3>Norwegen als Hauptgang</h3><p>Fjorde, Küste, Berge, Atlantic Road, Trollstigen, Lofoten light.</p></article>
-      <article class="card panel"><h3>Schweden zum Landen</h3><p>Wälder und Seen als ruhiger Ausklang statt abruptem Ende.</p></article>
-      <article class="card panel"><h3>Dänemark minimal</h3><p>Wie gewünscht: Verbindung, kein Schwerpunkt.</p></article>
-    </div>
-  </div>
-</section>
-
-<section id="rhythmus">
-  <div class="wrap">
-    <h2>So wird die Tour unterwegs gut</h2>
-    <div class="two">
-      <div class="panel" style="padding:24px">
-        <ul>
-          <li><b>Früh fahren:</b> leere Straßen, bessere Fotos, weniger Touristenlärm.</li>
-          <li><b>Kurze Stopps:</b> Aussicht, Wasser, weiter. Du willst fahren, nicht parken.</li>
-          <li><b>17–18 Uhr in Spot-Modus:</b> dann wird Zelten entspannt statt nervig.</li>
-          <li><b>Hotel alle 2–3 Nächte:</b> laden, duschen, essen, Wäsche, Kopf sortieren.</li>
-          <li><b>Tankregel:</b> Im Norden nie leichtsinnig werden – bei halbem Tank denken, nicht erst bei Reserve.</li>
-        </ul>
+  <header class="hero" id="top">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="badge">Personal Travel Guide</span>
+        <h1>Der Valhalla Run<br><span style="font-size:smaller; color: var(--muted)">Skandinavien auf zwei
+            Rädern.</span></h1>
+        <p class="sub">Start in Flensburg, dann per Fähre entspannt nach Helsinki, durch Finnland hoch zum Nordkap,
+          kompakt auf die Lofoten, runter über Atlantic Ocean Road und Trollstigen, zurück durch Schwedens Wälder. Ohne
+          Autobahn. Mit viel Natur. Mit Zelt, Hotels im richtigen Rhythmus und Etappen, die sich fahren statt nur planen
+          lassen.</p>
       </div>
-      <div class="quote panel">Die besten Tage auf so einer Tour sind nicht die längsten. Es sind die Tage, die sich abends vollständig anfühlen.</div>
-    </div>
-  </div>
-</section>
-
-
-<section id="karte">
-  <div class="wrap">
-    <h2>Grobe Gesamtroute auf der Karte</h2>
-    <p class="lead">Die Karte zeigt die Reise als ungefähre Linie: Flensburg → Fähre nach Helsinki → Finnland hoch → Nordkap → Lofoten light → Atlantic Ocean Road → Trollstigen → Schweden runter → Flensburg. Sie ist nicht zur exakten Navigation gedacht, sondern als visuelle Gesamtübersicht.</p>
-    <div class="panel" style="padding:18px; overflow:hidden;">
-      <div id="route-map" style="height: 560px; width: 100%; border-radius: 20px; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.08); position: relative;" class="leaflet-container leaflet-touch leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom" tabindex="0"><div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(-24px, 0px, 0px);"><div class="leaflet-pane leaflet-tile-pane"><div class="leaflet-layer " style="z-index: 1; opacity: 1;"><div class="leaflet-tile-container leaflet-zoom-animated" style="z-index: 18; transform: translate3d(0px, 0px, 0px) scale(1);"><img alt="" src="https://a.tile.openstreetmap.org/4/8/4.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(377px, 210px, 0px); opacity: 1;"><img alt="" src="https://b.tile.openstreetmap.org/4/9/4.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(633px, 210px, 0px); opacity: 1;"><img alt="" src="https://c.tile.openstreetmap.org/4/8/3.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(377px, -46px, 0px); opacity: 1;"><img alt="" src="https://a.tile.openstreetmap.org/4/9/3.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(633px, -46px, 0px); opacity: 1;"><img alt="" src="https://b.tile.openstreetmap.org/4/8/5.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(377px, 466px, 0px); opacity: 1;"><img alt="" src="https://c.tile.openstreetmap.org/4/9/5.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(633px, 466px, 0px); opacity: 1;"><img alt="" src="https://c.tile.openstreetmap.org/4/7/4.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(121px, 210px, 0px); opacity: 1;"><img alt="" src="https://c.tile.openstreetmap.org/4/10/4.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(889px, 210px, 0px); opacity: 1;"><img alt="" src="https://b.tile.openstreetmap.org/4/7/3.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(121px, -46px, 0px); opacity: 1;"><img alt="" src="https://b.tile.openstreetmap.org/4/10/3.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(889px, -46px, 0px); opacity: 1;"><img alt="" src="https://a.tile.openstreetmap.org/4/7/5.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(121px, 466px, 0px); opacity: 1;"><img alt="" src="https://a.tile.openstreetmap.org/4/10/5.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(889px, 466px, 0px); opacity: 1;"><img alt="" src="https://b.tile.openstreetmap.org/4/6/4.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-135px, 210px, 0px); opacity: 1;"><img alt="" src="https://a.tile.openstreetmap.org/4/11/4.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1145px, 210px, 0px); opacity: 1;"><img alt="" src="https://a.tile.openstreetmap.org/4/6/3.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-135px, -46px, 0px); opacity: 1;"><img alt="" src="https://c.tile.openstreetmap.org/4/11/3.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1145px, -46px, 0px); opacity: 1;"><img alt="" src="https://c.tile.openstreetmap.org/4/6/5.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-135px, 466px, 0px); opacity: 1;"><img alt="" src="https://b.tile.openstreetmap.org/4/11/5.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1145px, 466px, 0px); opacity: 1;"></div></div></div><div class="leaflet-pane leaflet-overlay-pane"><svg pointer-events="none" class="leaflet-zoom-animated" width="1324" height="670" viewBox="-86 -56 1324 670" style="transform: translate3d(-86px, -56px, 0px);"><g><path class="leaflet-interactive" stroke="#7dd3fc" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M484 486L492 495L661 372L669 351L692 307L667 252L670 210L685 138L673 69L670 63L642 104L593 114L531 163L461 303L464 317L528 382L545 443L484 486"></path><path class="leaflet-interactive" stroke="#a7f3d0" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#a7f3d0" fill-opacity="0.95" fill-rule="evenodd" d="M478,486a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="#a7f3d0" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#a7f3d0" fill-opacity="0.95" fill-rule="evenodd" d="M655,372a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="#a7f3d0" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#a7f3d0" fill-opacity="0.95" fill-rule="evenodd" d="M686,307a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="#a7f3d0" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#a7f3d0" fill-opacity="0.95" fill-rule="evenodd" d="M661,252a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="#a7f3d0" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#a7f3d0" fill-opacity="0.95" fill-rule="evenodd" d="M679,138a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="#a7f3d0" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#a7f3d0" fill-opacity="0.95" fill-rule="evenodd" d="M664,63a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="#a7f3d0" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#a7f3d0" fill-opacity="0.95" fill-rule="evenodd" d="M636,104a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="#a7f3d0" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#a7f3d0" fill-opacity="0.95" fill-rule="evenodd" d="M587,114a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="#a7f3d0" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#a7f3d0" fill-opacity="0.95" fill-rule="evenodd" d="M525,163a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="#a7f3d0" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#a7f3d0" fill-opacity="0.95" fill-rule="evenodd" d="M455,303a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="#a7f3d0" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#a7f3d0" fill-opacity="0.95" fill-rule="evenodd" d="M458,317a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="#a7f3d0" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#a7f3d0" fill-opacity="0.95" fill-rule="evenodd" d="M522,382a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path></g></svg></div><div class="leaflet-pane leaflet-shadow-pane"></div><div class="leaflet-pane leaflet-marker-pane"></div><div class="leaflet-pane leaflet-tooltip-pane"></div><div class="leaflet-pane leaflet-popup-pane"></div><div class="leaflet-proxy leaflet-zoom-animated" style="transform: translate3d(2246.5px, 1093px, 0px) scale(8);"></div></div><div class="leaflet-control-container"><div class="leaflet-top leaflet-left"><div class="leaflet-control-zoom leaflet-bar leaflet-control"><a class="leaflet-control-zoom-in" href="#" title="Zoom in" role="button" aria-label="Zoom in" aria-disabled="false"><span aria-hidden="true">+</span></a><a class="leaflet-control-zoom-out" href="#" title="Zoom out" role="button" aria-label="Zoom out" aria-disabled="false"><span aria-hidden="true">−</span></a></div></div><div class="leaflet-top leaflet-right"></div><div class="leaflet-bottom leaflet-left"></div><div class="leaflet-bottom leaflet-right"><div class="leaflet-control-attribution leaflet-control"><a href="https://leafletjs.com" title="A JavaScript library for interactive maps"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8" class="leaflet-attribution-flag"><path fill="#4C7BE1" d="M0 0h12v4H0z"></path><path fill="#FFD500" d="M0 4h12v3H0z"></path><path fill="#E0BC00" d="M0 7h12v1H0z"></path></svg> Leaflet</a> <span aria-hidden="true">|</span> © OpenStreetMap-Mitwirkende</div></div></div></div>
-      <div style="display:flex; flex-wrap:wrap; gap:12px; margin-top:14px; align-items:center;">
-        <a href="https://www.google.com/maps/dir/Flensburg/Kiel/Helsinki/Kuopio/Oulu/Inari/Nordkapp/Alta/Tromso/Lofoten/Atlantic+Ocean+Road/Trollstigen/Varmland/Flensburg" target="_blank" rel="noopener" style="display:inline-flex; align-items:center; gap:8px; text-decoration:none; padding:10px 14px; border-radius:999px; color:var(--text); background:rgba(125,211,252,.12); border:1px solid rgba(125,211,252,.35);">In Google Maps öffnen</a>
-        <span class="meta">Zur Orientierung perfekt. Für die einzelnen Fahrtage bleiben deine GPX-Dateien die bessere Wahl.</span>
+      <div class="panel stats">
+        <div class="stat"><b>17–18 Tage</b><span>genau dein Sweet Spot</span></div>
+        <div class="stat"><b>200–350 km</b><span>am Tag, ohne Stress</span></div>
+        <div class="stat"><b>Nordkap Pflicht</b><span>Lofoten kompakt, Norwegen im Fokus</span></div>
+        <div class="stat"><b>Zelt + Hotel</b><span>bewusster Mix statt Hardcore-Durchziehen</span></div>
       </div>
     </div>
-  </div>
-</section>
+  </header>
 
-
-<section id="etappen">
-  <div class="wrap">
-    <h2>Tag für Tag – dein eigentlicher Guide</h2>
-    <p class="lead">Jeder Tag hat hier nicht nur ein Ziel, sondern einen Charakter. Genau das hilft unterwegs mehr als jede kilometergenaue Planung.</p>
-    <div class="route">
-      
-    <article class="day panel">
-      <h3>Tag 1–2 · Flensburg → Kiel/Travemünde → Fähre nach Helsinki</h3>
-      <div class="meta">Anreise + Fähre · Ziel: runterkommen, nicht schon vor Skandinavien Energie verbrennen</div>
-      <div class="day-image">
-        <img src="media/tag1-2.jpg" alt="Tag 1–2 · Flensburg → Kiel/Travemünde → Fähre nach Helsinki">
-        <div class="caption">Der Kopf soll hier schon auf Reise schalten – Fähre ist Teil der Tour, nicht nur Transport.</div>
-      </div>
-      <div class="day-grid">
-        <div>
-          <div class="box"><h4>Was heute ansteht</h4><ul><li>sauber verzurrtes Bike</li><li>Kabine als Reset-Ort</li><li>Offline-Karten, Powerbanks, Geräte und Gedanken sortieren</li></ul></div>
-          <div class="box"><h4>Tagesfokus</h4><p>Nichts Heroisches. Entspannt auf die Fähre, früh schlafen, gut essen, Route für die ersten Finnland-Tage einmal in Ruhe ansehen.</p></div>
-        </div>
-        <div>
-          <div class="box"><h4>Gefahren / Risiken</h4><ul><li>unnötiger Stress bei der Anreise</li><li>losfahren wollen statt ankommen wollen</li><li>schlecht verzurren oder Wertsachen am Bike lassen</li></ul></div>
-          <div class="box"><h4>Übernachtung</h4><p>Kabine auf der Fähre</p></div>
-        </div>
-      </div>
-    </article>
-    
-    <article class="day panel">
-      <h3>Tag 3 · Helsinki → Lahti / Päijänne-Region</h3>
-      <div class="meta">ca. 220–260 km · sanfter Einstieg in Finnland</div>
-      <div class="day-image">
-        <img src="media/tag3.jpg" alt="Tag 3 · Helsinki → Lahti / Päijänne-Region">
-        <div class="caption">Vom urbanen Auftakt in die Ruhe. Genau der richtige erste Reisetag.</div>
-      </div>
-      <div class="day-grid">
-        <div>
-          <div class="box"><h4>Was heute ansteht</h4><ul><li>Porvoo als kurzer schöner Stopp</li><li>erste finnische Seen- und Waldstraßen</li><li>Päijänne-Region als perfekter Outdoor-Einstieg</li></ul></div>
-          <div class="box"><h4>Tagesfokus</h4><p>Heute geht es nicht um Spektakel. Es geht darum, innerlich von Zuhause auf Reise umzuschalten.</p></div>
-        </div>
-        <div>
-          <div class="box"><h4>Gefahren / Risiken</h4><ul><li>zu viel wollen am ersten Tag</li><li>zu spät nach Zeltspot suchen</li><li>nach der Fähre noch nicht wirklich im Rhythmus sein</li></ul></div>
-          <div class="box"><h4>Übernachtung</h4><p>Wildcamp an der Päijänne-Region oder kleine Lakeside-Lodge</p></div>
-        </div>
-      </div>
-    </article>
-    
-    <article class="day panel">
-      <h3>Tag 4 · Päijänne → Kuopio</h3>
-      <div class="meta">ca. 280–320 km · finnischer Flow-Tag</div>
-      <div class="day-image">
-        <img src="media/tag4.jpg" alt="Tag 4 · Päijänne → Kuopio">
-        <div class="caption">Wald, Wasser, Leere. Der erste richtige Tag, an dem du merkst: ich bin weg.</div>
-      </div>
-      <div class="day-grid">
-        <div>
-          <div class="box"><h4>Was heute ansteht</h4><ul><li>endlose Seen und Wälder</li><li>kleine Landstraßen ohne Hektik</li><li>perfekte spontane Badestellen und Uferpausen</li></ul></div>
-          <div class="box"><h4>Tagesfokus</h4><p>Nicht zu viel stoppen, aber genau genug. Du willst heute ins Rollen kommen, nicht abhaken.</p></div>
-        </div>
-        <div>
-          <div class="box"><h4>Gefahren / Risiken</h4><ul><li>Mücken am Abend</li><li>Monotonie kann müde machen</li><li>Wildwechsel in der Dämmerung</li></ul></div>
-          <div class="box"><h4>Übernachtung</h4><p>Wildcamp am See oder Stadtrand-Hotel bei Kuopio, wenn du früh laden/duschen willst</p></div>
-        </div>
-      </div>
-    </article>
-    
-    <article class="day panel">
-      <h3>Tag 5 · Kuopio → Oulu</h3>
-      <div class="meta">ca. 300 km · Reset-Tag mit Kilometer-Sinn</div>
-      <div class="day-image">
-        <img src="media/tag5.jpg" alt="Tag 5 · Kuopio → Oulu">
-        <div class="caption">Weniger Show, mehr Struktur. Genau deshalb ein guter Tag.</div>
-      </div>
-      <div class="day-grid">
-        <div>
-          <div class="box"><h4>Was heute ansteht</h4><ul><li>ruhiges Vorankommen ohne Verkehrsstress</li><li>Versorgung wird unkompliziert</li><li>klarer Sprung weiter nach Norden</li></ul></div>
-          <div class="box"><h4>Tagesfokus</h4><p>Heute kannst du Hotel bewusst als Service-Tag nehmen: duschen, waschen, laden, sauber essen.</p></div>
-        </div>
-        <div>
-          <div class="box"><h4>Gefahren / Risiken</h4><ul><li>lange ruhige Straßen = Konzentration sinkt</li><li>zu denken, heute sei nur Transfer und daher nachlässig zu werden</li></ul></div>
-          <div class="box"><h4>Übernachtung</h4><p>Hotel in Oulu empfohlen, alternativ nördlich außerhalb zelten</p></div>
-        </div>
-      </div>
-    </article>
-    
-    <article class="day panel">
-      <h3>Tag 6 · Oulu → Rovaniemi → Inari</h3>
-      <div class="meta">ca. 350 km · langer Nord-Tag</div>
-      <div class="day-image">
-        <img src="media/tag6.jpg" alt="Tag 6 · Oulu → Rovaniemi → Inari">
-        <div class="caption">Die Reise wird nördlich. Weite, Renntierland, Inari-Stimmung.</div>
-      </div>
-      <div class="day-grid">
-        <div>
-          <div class="box"><h4>Was heute ansteht</h4><ul><li>Polarkreis bei Rovaniemi</li><li>Inari-See als einer der stärksten Spots der Reise</li><li>deutlich rauerer Landschaftscharakter</li></ul></div>
-          <div class="box"><h4>Tagesfokus</h4><p>Tank früh, iss früh, fahr sauber. Nicht erst reagieren, wenn du schon müde oder hungrig bist.</p></div>
-        </div>
-        <div>
-          <div class="box"><h4>Gefahren / Risiken</h4><ul><li>Rentiere jederzeit auf der Straße</li><li>späte Ankunft in Inari ohne Spot</li><li>Energieabfall auf der langen Etappe</li></ul></div>
-          <div class="box"><h4>Übernachtung</h4><p>Wildcamp am Inari-See oder Hotel in Inari / Saariselkä bei Schlechtwetter</p></div>
-        </div>
-      </div>
-    </article>
-    
-    <article class="day panel">
-      <h3>Tag 7 · Inari → Honningsvåg → Nordkap</h3>
-      <div class="meta">ca. 300 km · Pflicht-Meilenstein</div>
-      <div class="day-image">
-        <img src="media/tag7.jpg" alt="Tag 7 · Inari → Honningsvåg → Nordkap">
-        <div class="caption">Nicht der schönste Ort der Reise, aber der stärkste Satzpunkt.</div>
-      </div>
-      <div class="day-grid">
-        <div>
-          <div class="box"><h4>Was heute ansteht</h4><ul><li>die raue Leere der Anfahrt</li><li>Tunnel-/Brückenlogik zur Nordkap-Region</li><li>Nordkap-Moment selbst – einfach mitnehmen</li></ul></div>
-          <div class="box"><h4>Tagesfokus</h4><p>Früh los. Heute nicht diskutieren, nicht verschieben, nicht überromantisieren. Einfach fahren.</p></div>
-        </div>
-        <div>
-          <div class="box"><h4>Gefahren / Risiken</h4><ul><li>heftiger Wind, Nebel, Kälte</li><li>zu viel Erwartung an den Ort selbst</li><li>am Nordkap zelten wollen – schlechte Idee</li></ul></div>
-          <div class="box"><h4>Übernachtung</h4><p>Geschützt in der Region Honningsvåg oder Hotel dort bei Wetterchaos</p></div>
-        </div>
-      </div>
-    </article>
-    
-    <article class="day panel">
-      <h3>Tag 8 · Nordkap-Region → Alta</h3>
-      <div class="meta">ca. 230 km · kurzer Gegentag</div>
-      <div class="day-image">
-        <img src="media/tag8.jpg" alt="Tag 8 · Nordkap-Region → Alta">
-        <div class="caption">Nach dem großen Ziel wieder runterregeln. Solche Tage tragen die Reise.</div>
-      </div>
-      <div class="day-grid">
-        <div>
-          <div class="box"><h4>Was heute ansteht</h4><ul><li>Nordnorwegen ohne Zielstress</li><li>karge, stille Szenerie</li><li>Zeit zum Verarbeiten statt zum Sammeln</li></ul></div>
-          <div class="box"><h4>Tagesfokus</h4><p>Heute lieber Komfort, Essen, Schlaf und ein klarer Kopf als noch eine Heldentat.</p></div>
-        </div>
-        <div>
-          <div class="box"><h4>Gefahren / Risiken</h4><ul><li>Euphorie oder Leere nach Nordkap</li><li>gedanklich schon in Norwegens Highlights kleben und heute überziehen</li></ul></div>
-          <div class="box"><h4>Übernachtung</h4><p>Hotel in Alta empfohlen</p></div>
-        </div>
-      </div>
-    </article>
-    
-    <article class="day panel">
-      <h3>Tag 9 · Alta → Tromsø</h3>
-      <div class="meta">ca. 300 km · Fjordauftakt</div>
-      <div class="day-image">
-        <img src="media/tag9.jpg" alt="Tag 9 · Alta → Tromsø">
-        <div class="caption">Ab hier kippt die Reise ins Norwegische: Küste, Höhe, Wasser, Drama.</div>
-      </div>
-      <div class="day-grid">
-        <div>
-          <div class="box"><h4>Was heute ansteht</h4><ul><li>erste große Fjordbilder</li><li>Brücken, Meer, Berge in dichter Folge</li><li>der eigentliche Beginn der Belohnungsphase</li></ul></div>
-          <div class="box"><h4>Tagesfokus</h4><p>Mehr schauen als in Finnland, aber nicht in Fotostopps ertrinken. Der Tag lebt vom Gesamtfluss.</p></div>
-        </div>
-        <div>
-          <div class="box"><h4>Gefahren / Risiken</h4><ul><li>Wind an exponierten Küstenstücken</li><li>visuelle Überladung = Müdigkeit</li><li>zu viele Stopps fressen Strecke und Energie</li></ul></div>
-          <div class="box"><h4>Übernachtung</h4><p>Wildcamp westlich von Tromsø an Fjordbuchten oder ruhiges Hotel außerhalb</p></div>
-        </div>
-      </div>
-    </article>
-    
-    <article class="day panel">
-      <h3>Tag 10 · Tromsø → Richtung Lofoten</h3>
-      <div class="meta">ca. 280–320 km inkl. Küsten-/Fährlogik</div>
-      <div class="day-image">
-        <img src="media/tag10.jpg" alt="Tag 10 · Tromsø → Richtung Lofoten">
-        <div class="caption">Die Annäherung an die Inselwelt ist fast so gut wie das Ziel selbst.</div>
-      </div>
-      <div class="day-grid">
-        <div>
-          <div class="box"><h4>Was heute ansteht</h4><ul><li>Insel- und Küstenannäherung</li><li>immer dramatischere Linien in der Landschaft</li><li>Vorfreude auf Lofoten ohne vollen Hotspot-Druck</li></ul></div>
-          <div class="box"><h4>Tagesfokus</h4><p>Flexibel bleiben. Heute lieber sauber ankommen als unterwegs jeden Aussichtspunkt mitnehmen.</p></div>
-        </div>
-        <div>
-          <div class="box"><h4>Gefahren / Risiken</h4><ul><li>Fährzeiten zerhacken den Tag</li><li>touristische Verdichtung</li><li>zu ambitionierte Erwartungen an die Lofoten</li></ul></div>
-          <div class="box"><h4>Übernachtung</h4><p>Camping Richtung Ramberg/Flakstad oder Basecamp-artiges Hotel</p></div>
-        </div>
-      </div>
-    </article>
-    
-    <article class="day panel">
-      <h3>Tag 11 · Lofoten light + 2–4h Wanderung</h3>
-      <div class="meta">wenig fahren · bewusst Raum für Gehen und Schauen</div>
-      <div class="day-image">
-        <img src="media/tag11.jpg" alt="Tag 11 · Lofoten light + 2–4h Wanderung">
-        <div class="caption">Kompakt spektakulär. Hier gewinnt, wer nicht alles in einen Tag stopft.</div>
-      </div>
-      <div class="day-grid">
-        <div>
-          <div class="box"><h4>Was heute ansteht</h4><ul><li>Ramberg-Region</li><li>Reine als Bild, nicht als Pflichtprogramm</li><li>kurze Wanderung mit Aussicht statt Sportprojekt</li></ul></div>
-          <div class="box"><h4>Tagesfokus</h4><p>Heute weniger sammeln, mehr erleben. Eine gute Wanderung reicht vollkommen.</p></div>
-        </div>
-        <div>
-          <div class="box"><h4>Gefahren / Risiken</h4><ul><li>Überladen des Tages</li><li>volle Hotspots zur falschen Zeit</li><li>Park-/Haltechaos an offensichtlichen Spots</li></ul></div>
-          <div class="box"><h4>Übernachtung</h4><p>Camping früh sichern oder eine ruhige Unterkunft für echte Erholung</p></div>
-        </div>
-      </div>
-    </article>
-    
-    <article class="day panel">
-      <h3>Tag 12 · Lofoten → südlicher raus, wieder mehr Flow</h3>
-      <div class="meta">ca. 250–300 km · raus aus der Postkartendichte</div>
-      <div class="day-image">
-        <img src="media/tag12.jpg" alt="Tag 12 · Lofoten → südlicher raus, wieder mehr Flow">
-        <div class="caption">Wieder Strecke statt Kulissenkonsum. Oft fahrerisch besser als die Hotspots.</div>
-      </div>
-      <div class="day-grid">
-        <div>
-          <div class="box"><h4>Was heute ansteht</h4><ul><li>ruhigere Küstenabschnitte</li><li>wieder mehr Platz auf der Straße</li><li>ein Tag, der oft unterschätzt wird</li></ul></div>
-          <div class="box"><h4>Tagesfokus</h4><p>Den Kopf wieder auf Fahren stellen. Weniger 'ich muss noch', mehr 'ich will heute schön rollen'.</p></div>
-        </div>
-        <div>
-          <div class="box"><h4>Gefahren / Risiken</h4><ul><li>zu spät starten</li><li>Wetterumschwünge an der Küste</li><li>nach Lofoten im Kopf noch festhängen</li></ul></div>
-          <div class="box"><h4>Übernachtung</h4><p>Ruhiger Küsten-Zeltplatz oder spontan kleine Hütte/Unterkunft</p></div>
-        </div>
-      </div>
-    </article>
-    
-    <article class="day panel">
-      <h3>Tag 13 · Küste/Fjordlogik → Atlantic Ocean Road</h3>
-      <div class="meta">ca. 280–320 km · ikonisch, aber kurz</div>
-      <div class="day-image">
-        <img src="media/tag13.jpg" alt="Tag 13 · Küste/Fjordlogik → Atlantic Ocean Road">
-        <div class="caption">Die Straße ist kurz. Der Tag muss von mehr leben – und genau das tut er.</div>
-      </div>
-      <div class="day-grid">
-        <div>
-          <div class="box"><h4>Was heute ansteht</h4><ul><li>Atlantic Ocean Road selbst</li><li>die Meeresstimmung drumherum</li><li>kleine Küstenorte und Restplätze als Bonus</li></ul></div>
-          <div class="box"><h4>Tagesfokus</h4><p>Nicht alles auf 8 Kilometer projizieren. Die Anfahrt und das Küstengefühl machen den Tag groß.</p></div>
-        </div>
-        <div>
-          <div class="box"><h4>Gefahren / Risiken</h4><ul><li>Wind, nasser Asphalt, viele Leute an Fotopunkten</li><li>zu hohe Erwartung an einen kurzen Abschnitt</li></ul></div>
-          <div class="box"><h4>Übernachtung</h4><p>Hotel küstennah heute stark, Camping nur bei stabilem Wetter wirklich schön</p></div>
-        </div>
-      </div>
-    </article>
-    
-    <article class="day panel">
-      <h3>Tag 14 · Atlantic Road → Trollstigen</h3>
-      <div class="meta">ca. 220–270 km · großer Norwegen-Tag</div>
-      <div class="day-image">
-        <img src="media/tag14.jpg" alt="Tag 14 · Atlantic Road → Trollstigen">
-        <div class="caption">Kurvenkino, Wasserfallkulisse, Hochgebirgsgefühl. Einer der ikonischen Tage.</div>
-      </div>
-      <div class="day-grid">
-        <div>
-          <div class="box"><h4>Was heute ansteht</h4><ul><li>Trollstigen möglichst früh oder spät</li><li>Tal darunter als oft bessere Schlafregion</li><li>großer Wanderblock möglich bei gutem Wetter</li></ul></div>
-          <div class="box"><h4>Tagesfokus</h4><p>Heute passt ein halber bis ganzer Wandertag am besten. Oder du fährst die Ikone bewusst zu Randzeiten.</p></div>
-        </div>
-        <div>
-          <div class="box"><h4>Gefahren / Risiken</h4><ul><li>Busse, Stop-and-go, nasse Passagen</li><li>zu viel Foto, zu wenig Flow</li><li>zu spät am Pass sein</li></ul></div>
-          <div class="box"><h4>Übernachtung</h4><p>Camping im Tal unterhalb oder Hotel als Komfortbasis für Wandern</p></div>
-        </div>
-      </div>
-    </article>
-    
-    <article class="day panel">
-      <h3>Tag 15 · Norwegen → Schweden / Värmland</h3>
-      <div class="meta">ca. 280–320 km · Übergang mit Sinn</div>
-      <div class="day-image">
-        <img src="media/tag15.jpg" alt="Tag 15 · Norwegen → Schweden / Värmland">
-        <div class="caption">Weniger Drama, mehr Ruhe. Kein Abstieg – der perfekte Ausklang.</div>
-      </div>
-      <div class="day-grid">
-        <div>
-          <div class="box"><h4>Was heute ansteht</h4><ul><li>Wälder, Seen, mehr Raum</li><li>mental weiches Landen nach Norwegen</li><li>Värmland als ideales Outdoor-Ende</li></ul></div>
-          <div class="box"><h4>Tagesfokus</h4><p>Schweden nicht als Rest behandeln. Gerade jetzt wirkt Ruhe besonders gut.</p></div>
-        </div>
-        <div>
-          <div class="box"><h4>Gefahren / Risiken</h4><ul><li>mentaler Durchhänger nach den großen Highlights</li><li>zu effizient werden und den Rückweg verschenken</li></ul></div>
-          <div class="box"><h4>Übernachtung</h4><p>Wildcamp an einem See oder Spa-/Lodge-Reset in Värmland</p></div>
-        </div>
-      </div>
-    </article>
-    
-    <article class="day panel">
-      <h3>Tag 16 · Värmland → Südschweden</h3>
-      <div class="meta">ca. 300 km · ruhiger Roll-Tag</div>
-      <div class="day-image">
-        <img src="media/tag16.jpg" alt="Tag 16 · Värmland → Südschweden">
-        <div class="caption">Ein leiser Tag, der später oft größer wirkt als gedacht.</div>
-      </div>
-      <div class="day-grid">
-        <div>
-          <div class="box"><h4>Was heute ansteht</h4><ul><li>ruhige Kurven und Wälder</li><li>letzte echte Draußen-Momente</li><li>Seenstopps statt Must-Sees</li></ul></div>
-          <div class="box"><h4>Tagesfokus</h4><p>Keine Show, kein Druck. Einfach einen guten Reisetag machen.</p></div>
-        </div>
-        <div>
-          <div class="box"><h4>Gefahren / Risiken</h4><ul><li>im Kopf schon zuhause sein</li><li>Routine = Unachtsamkeit</li></ul></div>
-          <div class="box"><h4>Übernachtung</h4><p>Hotel als clevere Vor-Heimweg-Nacht oder letzte Outdoor-Nacht</p></div>
-        </div>
-      </div>
-    </article>
-    
-    <article class="day panel">
-      <h3>Tag 17 · Südschweden → Dänemark</h3>
-      <div class="meta">ca. 280–320 km · zweckmäßig, aber nicht stumpf</div>
-      <div class="day-image">
-        <img src="media/tag17.jpg" alt="Tag 17 · Südschweden → Dänemark">
-        <div class="caption">Rückweg mit Haltung. Nicht runterspulen, sondern sauber zu Ende fahren.</div>
-      </div>
-      <div class="day-grid">
-        <div>
-          <div class="box"><h4>Was heute ansteht</h4><ul><li>letzte lange Rollphase</li><li>mentales Sortieren der Reise</li><li>kein unnötiger Fokus auf Dänemark</li></ul></div>
-          <div class="box"><h4>Tagesfokus</h4><p>Heute nichts mehr beweisen. Gleichmäßig und rund zu Ende denken.</p></div>
-        </div>
-        <div>
-          <div class="box"><h4>Gefahren / Risiken</h4><ul><li>Wind kann nerven</li><li>zu früh innerlich abschalten</li></ul></div>
-          <div class="box"><h4>Übernachtung</h4><p>Hotel empfohlen</p></div>
-        </div>
-      </div>
-    </article>
-    
-    <article class="day panel">
-      <h3>Tag 18 · Dänemark → Flensburg</h3>
-      <div class="meta">letzte kurze Heimrolle</div>
-      <div class="day-image">
-        <img src="media/tag18.jpg" alt="Tag 18 · Dänemark → Flensburg">
-        <div class="caption">Die Tour endet nicht mit dem ersten Ortsschild. Fahr den Schluss bewusst.</div>
-      </div>
-      <div class="day-grid">
-        <div>
-          <div class="box"><h4>Was heute ansteht</h4><ul><li>bewusster Abschluss</li><li>saubere Landung statt abruptem Ende</li></ul></div>
-          <div class="box"><h4>Tagesfokus</h4><p>Nicht schon vor dem Ziel aussteigen. Die letzte Stunde gehört noch zur Reise.</p></div>
-        </div>
-        <div>
-          <div class="box"><h4>Gefahren / Risiken</h4><ul><li>Zuhause-im-Kopf-Effekt</li><li>Unruhe, weil es vorbei ist</li></ul></div>
-          <div class="box"><h4>Übernachtung</h4><p>Zuhause</p></div>
-        </div>
-      </div>
-    </article>
-    
+  <nav class="topnav">
+    <div class="wrap">
+      <a href="#idee">Reiselogik</a>
+      <a href="#rhythmus">Tagesrhythmus</a>
+      <a href="#etappen">Etappen</a>
+      <a href="#camping">Camping &amp; Hotels</a>
+      <a href="#wandern">Wandern</a>
+      <a href="#packliste">Packliste</a>
+      <a href="#fehler">Fehler vermeiden</a>
     </div>
-  </div>
-</section>
+  </nav>
 
-<section id="camping">
-  <div class="wrap">
-    <h2>Camping, Hotels und was wirklich sinnvoll ist</h2>
-    <div class="two">
-      <div class="panel" style="padding:24px">
-        <h3>Wildcamping</h3>
-        <ul>
-          <li><b>Finnland:</b> am entspanntesten. Viele Seen, viele ruhige Zufahrten.</li>
-          <li><b>Schweden:</b> ähnlich einfach und ideal für die ruhigen Rückweg-Tage.</li>
-          <li><b>Norwegen:</b> möglich, aber selektiver. Wind, Küstenlage und Häusernähe machen die Wahl wichtiger.</li>
-          <li><b>Regel:</b> nicht perfektionistisch suchen. Ein guter Spot schlägt einen perfekten Spot, den du erst bei Dunkelheit findest.</li>
-        </ul>
-      </div>
-      <div class="panel" style="padding:24px">
-        <h3>Hotel-Reset</h3>
-        <ul>
-          <li>Oulu: guter Technik-/Wäsche-Tag</li>
-          <li>Alta: ideal nach dem Nordkap</li>
-          <li>Küstennah an der Atlantic Road: atmosphärisch stark</li>
-          <li>Vor dem Heimweg: macht die letzten zwei Tage klarer und runder</li>
-        </ul>
+  <section id="idee">
+    <div class="wrap">
+      <h2>Warum diese Route zu dir passt</h2>
+      <p class="lead">Du wolltest nicht die schnellste Runde, sondern die richtige. Deshalb beginnt die Reise mit einer
+        Fähre und nicht mit Hetze. Finnland bringt dich in den Rhythmus. Das Nordkap gibt dir einen klaren Fixpunkt.
+        Norwegen liefert die großen Bilder und die starken Straßen. Schweden fängt dich auf dem Rückweg wieder weich
+        auf.</p>
+      <div class="grid">
+        <article class="card panel">
+          <h3>Entspannter Start</h3>
+          <p>Die Fähre ist bei deinem Stil kein Umweg, sondern der perfekte Reset.</p>
+        </article>
+        <article class="card panel">
+          <h3>Finnland als Flow-Zone</h3>
+          <p>Seen, Wälder, Weite – ideal, um in der Reise anzukommen.</p>
+        </article>
+        <article class="card panel">
+          <h3>Nordkap als Satzzeichen</h3>
+          <p>Nicht der schönste Punkt, aber das stärkste Ziel der ersten Woche.</p>
+        </article>
+        <article class="card panel">
+          <h3>Norwegen als Hauptgang</h3>
+          <p>Fjorde, Küste, Berge, Atlantic Road, Trollstigen, Lofoten light.</p>
+        </article>
+        <article class="card panel">
+          <h3>Schweden zum Landen</h3>
+          <p>Wälder und Seen als ruhiger Ausklang statt abruptem Ende.</p>
+        </article>
+        <article class="card panel">
+          <h3>Dänemark minimal</h3>
+          <p>Wie gewünscht: Verbindung, kein Schwerpunkt.</p>
+        </article>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="wandern">
-  <div class="wrap">
-    <h2>Wandern – genau richtig eingebaut</h2>
-    <div class="grid">
-      <article class="card panel"><h3>Lofoten</h3><p>2–4 Stunden reichen. Küstenblick statt Leistungstag.</p></article>
-      <article class="card panel"><h3>Trollstigen-Region</h3><p>Bester Kandidat für den großen Wandertag, wenn Wetter und Beine stimmen.</p></article>
-      <article class="card panel"><h3>Spontan bleibt besser</h3><p>Die Reise soll Motorradreise bleiben. Lieber gute kurze Hikes als zu viel Programm.</p></article>
+  <section id="rhythmus">
+    <div class="wrap">
+      <h2>So wird die Tour unterwegs gut</h2>
+      <div class="two">
+        <div class="panel" style="padding:24px">
+          <ul>
+            <li><b>Früh fahren:</b> leere Straßen, bessere Fotos, weniger Touristenlärm.</li>
+            <li><b>Kurze Stopps:</b> Aussicht, Wasser, weiter. Du willst fahren, nicht parken.</li>
+            <li><b>17–18 Uhr in Spot-Modus:</b> dann wird Zelten entspannt statt nervig.</li>
+            <li><b>Hotel alle 2–3 Nächte:</b> laden, duschen, essen, Wäsche, Kopf sortieren.</li>
+            <li><b>Tankregel:</b> Im Norden nie leichtsinnig werden – bei halbem Tank denken, nicht erst bei Reserve.
+            </li>
+          </ul>
+        </div>
+        <div class="quote panel">Die besten Tage auf so einer Tour sind nicht die längsten. Es sind die Tage, die sich
+          abends vollständig anfühlen.</div>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="packliste">
-  <div class="wrap">
-    <h2>Packliste – auf deine Tour zugeschnitten</h2>
-    <div class="grid">
-      <article class="card panel"><h3>Bike &amp; Technik</h3><ul><li>Werkzeug, Kabelbinder, Tape</li><li>Reifenreparaturkit + Mini-Kompressor</li><li>Kettenspray, Ersatzsicherungen</li><li>Powerbank, USB, Offline-Karten</li></ul></article>
-      <article class="card panel"><h3>Camping</h3><ul><li>sturmfestes Zelt</li><li>Schlafsack Komfort um 5°C</li><li>vernünftige Isomatte</li><li>Kocher + Gas + Notfallmahlzeiten</li></ul></article>
-      <article class="card panel"><h3>Kleidung</h3><ul><li>Layering statt eine dicke Lösung</li><li>Midlayer / Fleece</li><li>Regenkombi trotz Membran</li><li>2 Paar Handschuhe + Mütze/Buff</li></ul></article>
-      <article class="card panel"><h3>Wandern</h3><ul><li>leichte Wanderschuhe / Trailrunner</li><li>kleiner Daypack</li><li>Blasenpflaster</li><li>Wasserreserve</li></ul></article>
-      <article class="card panel"><h3>Alltag</h3><ul><li>Mückenspray</li><li>Mikrofaserhandtuch</li><li>Feuchttücher</li><li>Sonnencreme</li></ul></article>
-      <article class="card panel"><h3>Essen</h3><ul><li>Supermarkt statt Restaurant-Fokus</li><li>Nüsse, Riegel, Haferflocken</li><li>1–2 Notfallgerichte immer dabei</li></ul></article>
+
+  <section id="karte">
+    <div class="wrap">
+      <h2>Grobe Gesamtroute auf der Karte</h2>
+      <p class="lead">Die Karte zeigt die Reise als ungefähre Linie: Flensburg → Fähre nach Helsinki → Finnland hoch →
+        Nordkap → Lofoten light → Atlantic Ocean Road → Trollstigen → Schweden runter → Flensburg. Sie ist nicht zur
+        exakten Navigation gedacht, sondern als visuelle Gesamtübersicht.</p>
+      <div class="panel" style="padding:18px; overflow:hidden;">
+        <div id="route-map"
+          style="height: 560px; width: 100%; border-radius: 20px; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.08); position: relative;"
+          class="leaflet-container leaflet-touch leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom"
+          tabindex="0">
+          <div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(-24px, 0px, 0px);">
+            <div class="leaflet-pane leaflet-tile-pane">
+              <div class="leaflet-layer " style="z-index: 1; opacity: 1;">
+                <div class="leaflet-tile-container leaflet-zoom-animated"
+                  style="z-index: 18; transform: translate3d(0px, 0px, 0px) scale(1);"><img alt=""
+                    src="https://a.tile.openstreetmap.org/4/8/4.png" class="leaflet-tile leaflet-tile-loaded"
+                    style="width: 256px; height: 256px; transform: translate3d(377px, 210px, 0px); opacity: 1;"><img
+                    alt="" src="https://b.tile.openstreetmap.org/4/9/4.png" class="leaflet-tile leaflet-tile-loaded"
+                    style="width: 256px; height: 256px; transform: translate3d(633px, 210px, 0px); opacity: 1;"><img
+                    alt="" src="https://c.tile.openstreetmap.org/4/8/3.png" class="leaflet-tile leaflet-tile-loaded"
+                    style="width: 256px; height: 256px; transform: translate3d(377px, -46px, 0px); opacity: 1;"><img
+                    alt="" src="https://a.tile.openstreetmap.org/4/9/3.png" class="leaflet-tile leaflet-tile-loaded"
+                    style="width: 256px; height: 256px; transform: translate3d(633px, -46px, 0px); opacity: 1;"><img
+                    alt="" src="https://b.tile.openstreetmap.org/4/8/5.png" class="leaflet-tile leaflet-tile-loaded"
+                    style="width: 256px; height: 256px; transform: translate3d(377px, 466px, 0px); opacity: 1;"><img
+                    alt="" src="https://c.tile.openstreetmap.org/4/9/5.png" class="leaflet-tile leaflet-tile-loaded"
+                    style="width: 256px; height: 256px; transform: translate3d(633px, 466px, 0px); opacity: 1;"><img
+                    alt="" src="https://c.tile.openstreetmap.org/4/7/4.png" class="leaflet-tile leaflet-tile-loaded"
+                    style="width: 256px; height: 256px; transform: translate3d(121px, 210px, 0px); opacity: 1;"><img
+                    alt="" src="https://c.tile.openstreetmap.org/4/10/4.png" class="leaflet-tile leaflet-tile-loaded"
+                    style="width: 256px; height: 256px; transform: translate3d(889px, 210px, 0px); opacity: 1;"><img
+                    alt="" src="https://b.tile.openstreetmap.org/4/7/3.png" class="leaflet-tile leaflet-tile-loaded"
+                    style="width: 256px; height: 256px; transform: translate3d(121px, -46px, 0px); opacity: 1;"><img
+                    alt="" src="https://b.tile.openstreetmap.org/4/10/3.png" class="leaflet-tile leaflet-tile-loaded"
+                    style="width: 256px; height: 256px; transform: translate3d(889px, -46px, 0px); opacity: 1;"><img
+                    alt="" src="https://a.tile.openstreetmap.org/4/7/5.png" class="leaflet-tile leaflet-tile-loaded"
+                    style="width: 256px; height: 256px; transform: translate3d(121px, 466px, 0px); opacity: 1;"><img
+                    alt="" src="https://a.tile.openstreetmap.org/4/10/5.png" class="leaflet-tile leaflet-tile-loaded"
+                    style="width: 256px; height: 256px; transform: translate3d(889px, 466px, 0px); opacity: 1;"><img
+                    alt="" src="https://b.tile.openstreetmap.org/4/6/4.png" class="leaflet-tile leaflet-tile-loaded"
+                    style="width: 256px; height: 256px; transform: translate3d(-135px, 210px, 0px); opacity: 1;"><img
+                    alt="" src="https://a.tile.openstreetmap.org/4/11/4.png" class="leaflet-tile leaflet-tile-loaded"
+                    style="width: 256px; height: 256px; transform: translate3d(1145px, 210px, 0px); opacity: 1;"><img
+                    alt="" src="https://a.tile.openstreetmap.org/4/6/3.png" class="leaflet-tile leaflet-tile-loaded"
+                    style="width: 256px; height: 256px; transform: translate3d(-135px, -46px, 0px); opacity: 1;"><img
+                    alt="" src="https://c.tile.openstreetmap.org/4/11/3.png" class="leaflet-tile leaflet-tile-loaded"
+                    style="width: 256px; height: 256px; transform: translate3d(1145px, -46px, 0px); opacity: 1;"><img
+                    alt="" src="https://c.tile.openstreetmap.org/4/6/5.png" class="leaflet-tile leaflet-tile-loaded"
+                    style="width: 256px; height: 256px; transform: translate3d(-135px, 466px, 0px); opacity: 1;"><img
+                    alt="" src="https://b.tile.openstreetmap.org/4/11/5.png" class="leaflet-tile leaflet-tile-loaded"
+                    style="width: 256px; height: 256px; transform: translate3d(1145px, 466px, 0px); opacity: 1;"></div>
+              </div>
+            </div>
+            <div class="leaflet-pane leaflet-overlay-pane"><svg pointer-events="none" class="leaflet-zoom-animated"
+                width="1324" height="670" viewBox="-86 -56 1324 670" style="transform: translate3d(-86px, -56px, 0px);">
+                <g>
+                  <path class="leaflet-interactive" stroke="#7dd3fc" stroke-opacity="0.9" stroke-width="4"
+                    stroke-linecap="round" stroke-linejoin="round" fill="none"
+                    d="M484 486L492 495L661 372L669 351L692 307L667 252L670 210L685 138L673 69L670 63L642 104L593 114L531 163L461 303L464 317L528 382L545 443L484 486">
+                  </path>
+                  <path class="leaflet-interactive" stroke="#a7f3d0" stroke-opacity="1" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" fill="#a7f3d0" fill-opacity="0.95"
+                    fill-rule="evenodd" d="M478,486a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path>
+                  <path class="leaflet-interactive" stroke="#a7f3d0" stroke-opacity="1" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" fill="#a7f3d0" fill-opacity="0.95"
+                    fill-rule="evenodd" d="M655,372a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path>
+                  <path class="leaflet-interactive" stroke="#a7f3d0" stroke-opacity="1" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" fill="#a7f3d0" fill-opacity="0.95"
+                    fill-rule="evenodd" d="M686,307a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path>
+                  <path class="leaflet-interactive" stroke="#a7f3d0" stroke-opacity="1" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" fill="#a7f3d0" fill-opacity="0.95"
+                    fill-rule="evenodd" d="M661,252a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path>
+                  <path class="leaflet-interactive" stroke="#a7f3d0" stroke-opacity="1" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" fill="#a7f3d0" fill-opacity="0.95"
+                    fill-rule="evenodd" d="M679,138a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path>
+                  <path class="leaflet-interactive" stroke="#a7f3d0" stroke-opacity="1" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" fill="#a7f3d0" fill-opacity="0.95"
+                    fill-rule="evenodd" d="M664,63a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path>
+                  <path class="leaflet-interactive" stroke="#a7f3d0" stroke-opacity="1" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" fill="#a7f3d0" fill-opacity="0.95"
+                    fill-rule="evenodd" d="M636,104a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path>
+                  <path class="leaflet-interactive" stroke="#a7f3d0" stroke-opacity="1" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" fill="#a7f3d0" fill-opacity="0.95"
+                    fill-rule="evenodd" d="M587,114a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path>
+                  <path class="leaflet-interactive" stroke="#a7f3d0" stroke-opacity="1" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" fill="#a7f3d0" fill-opacity="0.95"
+                    fill-rule="evenodd" d="M525,163a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path>
+                  <path class="leaflet-interactive" stroke="#a7f3d0" stroke-opacity="1" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" fill="#a7f3d0" fill-opacity="0.95"
+                    fill-rule="evenodd" d="M455,303a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path>
+                  <path class="leaflet-interactive" stroke="#a7f3d0" stroke-opacity="1" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" fill="#a7f3d0" fill-opacity="0.95"
+                    fill-rule="evenodd" d="M458,317a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path>
+                  <path class="leaflet-interactive" stroke="#a7f3d0" stroke-opacity="1" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" fill="#a7f3d0" fill-opacity="0.95"
+                    fill-rule="evenodd" d="M522,382a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path>
+                </g>
+              </svg></div>
+            <div class="leaflet-pane leaflet-shadow-pane"></div>
+            <div class="leaflet-pane leaflet-marker-pane"></div>
+            <div class="leaflet-pane leaflet-tooltip-pane"></div>
+            <div class="leaflet-pane leaflet-popup-pane"></div>
+            <div class="leaflet-proxy leaflet-zoom-animated"
+              style="transform: translate3d(2246.5px, 1093px, 0px) scale(8);"></div>
+          </div>
+          <div class="leaflet-control-container">
+            <div class="leaflet-top leaflet-left">
+              <div class="leaflet-control-zoom leaflet-bar leaflet-control"><a class="leaflet-control-zoom-in" href="#"
+                  title="Zoom in" role="button" aria-label="Zoom in" aria-disabled="false"><span
+                    aria-hidden="true">+</span></a><a class="leaflet-control-zoom-out" href="#" title="Zoom out"
+                  role="button" aria-label="Zoom out" aria-disabled="false"><span aria-hidden="true">−</span></a></div>
+            </div>
+            <div class="leaflet-top leaflet-right"></div>
+            <div class="leaflet-bottom leaflet-left"></div>
+            <div class="leaflet-bottom leaflet-right">
+              <div class="leaflet-control-attribution leaflet-control"><a href="https://leafletjs.com"
+                  title="A JavaScript library for interactive maps"><svg aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8"
+                    class="leaflet-attribution-flag">
+                    <path fill="#4C7BE1" d="M0 0h12v4H0z"></path>
+                    <path fill="#FFD500" d="M0 4h12v3H0z"></path>
+                    <path fill="#E0BC00" d="M0 7h12v1H0z"></path>
+                  </svg> Leaflet</a> <span aria-hidden="true">|</span> © OpenStreetMap-Mitwirkende</div>
+            </div>
+          </div>
+        </div>
+        <div style="display:flex; flex-wrap:wrap; gap:12px; margin-top:14px; align-items:center;">
+          <a href="https://www.google.com/maps/dir/Flensburg/Kiel/Helsinki/Kuopio/Oulu/Inari/Nordkapp/Alta/Tromso/Lofoten/Atlantic+Ocean+Road/Trollstigen/Varmland/Flensburg"
+            target="_blank" rel="noopener"
+            style="display:inline-flex; align-items:center; gap:8px; text-decoration:none; padding:10px 14px; border-radius:999px; color:var(--text); background:rgba(125,211,252,.12); border:1px solid rgba(125,211,252,.35);">In
+            Google Maps öffnen</a>
+          <span class="meta">Zur Orientierung perfekt. Für die einzelnen Fahrtage bleiben deine GPX-Dateien die bessere
+            Wahl.</span>
+        </div>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="fehler">
-  <div class="wrap">
-    <h2>Die Fehler, die so eine Reise schlechter machen</h2>
-    <div class="grid">
-      <article class="card panel"><h3>Zu voll planen</h3><p>Dann bist du nie wirklich da, sondern immer schon beim nächsten Punkt.</p></article>
-      <article class="card panel"><h3>Nordkap überhöhen</h3><p>Wichtiges Ziel, ja. Aber Norwegen danach ist oft der schönere Teil der Reise.</p></article>
-      <article class="card panel"><h3>Zu spät Spot suchen</h3><p>Hunger + Wind + Müdigkeit sind die schlechtesten Wildcamping-Berater.</p></article>
-      <article class="card panel"><h3>Regen bekämpfen wollen</h3><p>In Skandinavien gewinnt, wer akzeptiert statt verhandelt.</p></article>
-      <article class="card panel"><h3>Jeden Tag gleich behandeln</h3><p>Lange Etappen brauchen kurze Gegentage. Genau das hält dich frisch.</p></article>
-      <article class="card panel"><h3>Schweden unterschätzen</h3><p>Der Rückweg wird stärker, wenn du ihm bewusst Wert gibst.</p></article>
+
+  <section id="etappen">
+    <div class="wrap">
+      <h2>Tag für Tag – dein eigentlicher Guide</h2>
+      <p class="lead">Jeder Tag hat hier nicht nur ein Ziel, sondern einen Charakter. Genau das hilft unterwegs mehr als
+        jede kilometergenaue Planung.</p>
+      <div class="route">
+
+        <article class="day panel">
+          <h3>Tag 1–2 · Flensburg → Kiel/Travemünde → Fähre nach Helsinki</h3>
+          <div class="meta">Anreise + Fähre · Ziel: runterkommen, nicht schon vor Skandinavien Energie verbrennen</div>
+          <div class="day-image">
+            <img src="media/tag1-2.jpg" alt="Tag 1–2 · Flensburg → Kiel/Travemünde → Fähre nach Helsinki">
+            <div class="caption">Der Kopf soll hier schon auf Reise schalten – Fähre ist Teil der Tour, nicht nur
+              Transport.</div>
+          </div>
+          <div class="day-grid">
+            <div>
+              <div class="box">
+                <h4>Was heute ansteht</h4>
+                <ul>
+                  <li>sauber verzurrtes Bike</li>
+                  <li>Kabine als Reset-Ort</li>
+                  <li>Offline-Karten, Powerbanks, Geräte und Gedanken sortieren</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Tagesfokus</h4>
+                <p>Nichts Heroisches. Entspannt auf die Fähre, früh schlafen, gut essen, Route für die ersten
+                  Finnland-Tage einmal in Ruhe ansehen.</p>
+              </div>
+            </div>
+            <div>
+              <div class="box">
+                <h4>Gefahren / Risiken</h4>
+                <ul>
+                  <li>unnötiger Stress bei der Anreise</li>
+                  <li>losfahren wollen statt ankommen wollen</li>
+                  <li>schlecht verzurren oder Wertsachen am Bike lassen</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Übernachtung</h4>
+                <p>Kabine auf der Fähre</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="day panel">
+          <h3>Tag 3 · Helsinki → Lahti / Päijänne-Region</h3>
+          <div class="meta">ca. 220–260 km · sanfter Einstieg in Finnland</div>
+          <div class="day-image">
+            <img src="media/tag3.jpg" alt="Tag 3 · Helsinki → Lahti / Päijänne-Region">
+            <div class="caption">Vom urbanen Auftakt in die Ruhe. Genau der richtige erste Reisetag.</div>
+          </div>
+          <div class="day-grid">
+            <div>
+              <div class="box">
+                <h4>Was heute ansteht</h4>
+                <ul>
+                  <li>Porvoo als kurzer schöner Stopp</li>
+                  <li>erste finnische Seen- und Waldstraßen</li>
+                  <li>Päijänne-Region als perfekter Outdoor-Einstieg</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Tagesfokus</h4>
+                <p>Heute geht es nicht um Spektakel. Es geht darum, innerlich von Zuhause auf Reise umzuschalten.</p>
+              </div>
+            </div>
+            <div>
+              <div class="box">
+                <h4>Gefahren / Risiken</h4>
+                <ul>
+                  <li>zu viel wollen am ersten Tag</li>
+                  <li>zu spät nach Zeltspot suchen</li>
+                  <li>nach der Fähre noch nicht wirklich im Rhythmus sein</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Übernachtung</h4>
+                <p>Wildcamp an der Päijänne-Region oder kleine Lakeside-Lodge</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="day panel">
+          <h3>Tag 4 · Päijänne → Kuopio</h3>
+          <div class="meta">ca. 280–320 km · finnischer Flow-Tag</div>
+          <div class="day-image">
+            <img src="media/tag4.jpg" alt="Tag 4 · Päijänne → Kuopio">
+            <div class="caption">Wald, Wasser, Leere. Der erste richtige Tag, an dem du merkst: ich bin weg.</div>
+          </div>
+          <div class="day-grid">
+            <div>
+              <div class="box">
+                <h4>Was heute ansteht</h4>
+                <ul>
+                  <li>endlose Seen und Wälder</li>
+                  <li>kleine Landstraßen ohne Hektik</li>
+                  <li>perfekte spontane Badestellen und Uferpausen</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Tagesfokus</h4>
+                <p>Nicht zu viel stoppen, aber genau genug. Du willst heute ins Rollen kommen, nicht abhaken.</p>
+              </div>
+            </div>
+            <div>
+              <div class="box">
+                <h4>Gefahren / Risiken</h4>
+                <ul>
+                  <li>Mücken am Abend</li>
+                  <li>Monotonie kann müde machen</li>
+                  <li>Wildwechsel in der Dämmerung</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Übernachtung</h4>
+                <p>Wildcamp am See oder Stadtrand-Hotel bei Kuopio, wenn du früh laden/duschen willst</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="day panel">
+          <h3>Tag 5 · Kuopio → Oulu</h3>
+          <div class="meta">ca. 300 km · Reset-Tag mit Kilometer-Sinn</div>
+          <div class="day-image">
+            <img src="media/tag5.jpg" alt="Tag 5 · Kuopio → Oulu">
+            <div class="caption">Weniger Show, mehr Struktur. Genau deshalb ein guter Tag.</div>
+          </div>
+          <div class="day-grid">
+            <div>
+              <div class="box">
+                <h4>Was heute ansteht</h4>
+                <ul>
+                  <li>ruhiges Vorankommen ohne Verkehrsstress</li>
+                  <li>Versorgung wird unkompliziert</li>
+                  <li>klarer Sprung weiter nach Norden</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Tagesfokus</h4>
+                <p>Heute kannst du Hotel bewusst als Service-Tag nehmen: duschen, waschen, laden, sauber essen.</p>
+              </div>
+            </div>
+            <div>
+              <div class="box">
+                <h4>Gefahren / Risiken</h4>
+                <ul>
+                  <li>lange ruhige Straßen = Konzentration sinkt</li>
+                  <li>zu denken, heute sei nur Transfer und daher nachlässig zu werden</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Übernachtung</h4>
+                <p>Hotel in Oulu empfohlen, alternativ nördlich außerhalb zelten</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="day panel">
+          <h3>Tag 6 · Oulu → Rovaniemi → Inari</h3>
+          <div class="meta">ca. 350 km · langer Nord-Tag</div>
+          <div class="day-image">
+            <img src="media/tag6.jpg" alt="Tag 6 · Oulu → Rovaniemi → Inari">
+            <div class="caption">Die Reise wird nördlich. Weite, Renntierland, Inari-Stimmung.</div>
+          </div>
+          <div class="day-grid">
+            <div>
+              <div class="box">
+                <h4>Was heute ansteht</h4>
+                <ul>
+                  <li>Polarkreis bei Rovaniemi</li>
+                  <li>Inari-See als einer der stärksten Spots der Reise</li>
+                  <li>deutlich rauerer Landschaftscharakter</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Tagesfokus</h4>
+                <p>Tank früh, iss früh, fahr sauber. Nicht erst reagieren, wenn du schon müde oder hungrig bist.</p>
+              </div>
+            </div>
+            <div>
+              <div class="box">
+                <h4>Gefahren / Risiken</h4>
+                <ul>
+                  <li>Rentiere jederzeit auf der Straße</li>
+                  <li>späte Ankunft in Inari ohne Spot</li>
+                  <li>Energieabfall auf der langen Etappe</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Übernachtung</h4>
+                <p>Wildcamp am Inari-See oder Hotel in Inari / Saariselkä bei Schlechtwetter</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="day panel">
+          <h3>Tag 7 · Inari → Honningsvåg → Nordkap</h3>
+          <div class="meta">ca. 300 km · Pflicht-Meilenstein</div>
+          <div class="day-image">
+            <img src="media/tag7.jpg" alt="Tag 7 · Inari → Honningsvåg → Nordkap">
+            <div class="caption">Nicht der schönste Ort der Reise, aber der stärkste Satzpunkt.</div>
+          </div>
+          <div class="day-grid">
+            <div>
+              <div class="box">
+                <h4>Was heute ansteht</h4>
+                <ul>
+                  <li>die raue Leere der Anfahrt</li>
+                  <li>Tunnel-/Brückenlogik zur Nordkap-Region</li>
+                  <li>Nordkap-Moment selbst – einfach mitnehmen</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Tagesfokus</h4>
+                <p>Früh los. Heute nicht diskutieren, nicht verschieben, nicht überromantisieren. Einfach fahren.</p>
+              </div>
+            </div>
+            <div>
+              <div class="box">
+                <h4>Gefahren / Risiken</h4>
+                <ul>
+                  <li>heftiger Wind, Nebel, Kälte</li>
+                  <li>zu viel Erwartung an den Ort selbst</li>
+                  <li>am Nordkap zelten wollen – schlechte Idee</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Übernachtung</h4>
+                <p>Geschützt in der Region Honningsvåg oder Hotel dort bei Wetterchaos</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="day panel">
+          <h3>Tag 8 · Nordkap-Region → Alta</h3>
+          <div class="meta">ca. 230 km · kurzer Gegentag</div>
+          <div class="day-image">
+            <img src="media/tag8.jpg" alt="Tag 8 · Nordkap-Region → Alta">
+            <div class="caption">Nach dem großen Ziel wieder runterregeln. Solche Tage tragen die Reise.</div>
+          </div>
+          <div class="day-grid">
+            <div>
+              <div class="box">
+                <h4>Was heute ansteht</h4>
+                <ul>
+                  <li>Nordnorwegen ohne Zielstress</li>
+                  <li>karge, stille Szenerie</li>
+                  <li>Zeit zum Verarbeiten statt zum Sammeln</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Tagesfokus</h4>
+                <p>Heute lieber Komfort, Essen, Schlaf und ein klarer Kopf als noch eine Heldentat.</p>
+              </div>
+            </div>
+            <div>
+              <div class="box">
+                <h4>Gefahren / Risiken</h4>
+                <ul>
+                  <li>Euphorie oder Leere nach Nordkap</li>
+                  <li>gedanklich schon in Norwegens Highlights kleben und heute überziehen</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Übernachtung</h4>
+                <p>Hotel in Alta empfohlen</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="day panel">
+          <h3>Tag 9 · Alta → Tromsø</h3>
+          <div class="meta">ca. 300 km · Fjordauftakt</div>
+          <div class="day-image">
+            <img src="media/tag9.jpg" alt="Tag 9 · Alta → Tromsø">
+            <div class="caption">Ab hier kippt die Reise ins Norwegische: Küste, Höhe, Wasser, Drama.</div>
+          </div>
+          <div class="day-grid">
+            <div>
+              <div class="box">
+                <h4>Was heute ansteht</h4>
+                <ul>
+                  <li>erste große Fjordbilder</li>
+                  <li>Brücken, Meer, Berge in dichter Folge</li>
+                  <li>der eigentliche Beginn der Belohnungsphase</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Tagesfokus</h4>
+                <p>Mehr schauen als in Finnland, aber nicht in Fotostopps ertrinken. Der Tag lebt vom Gesamtfluss.</p>
+              </div>
+            </div>
+            <div>
+              <div class="box">
+                <h4>Gefahren / Risiken</h4>
+                <ul>
+                  <li>Wind an exponierten Küstenstücken</li>
+                  <li>visuelle Überladung = Müdigkeit</li>
+                  <li>zu viele Stopps fressen Strecke und Energie</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Übernachtung</h4>
+                <p>Wildcamp westlich von Tromsø an Fjordbuchten oder ruhiges Hotel außerhalb</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="day panel">
+          <h3>Tag 10 · Tromsø → Richtung Lofoten</h3>
+          <div class="meta">ca. 280–320 km inkl. Küsten-/Fährlogik</div>
+          <div class="day-image">
+            <img src="media/tag10.jpg" alt="Tag 10 · Tromsø → Richtung Lofoten">
+            <div class="caption">Die Annäherung an die Inselwelt ist fast so gut wie das Ziel selbst.</div>
+          </div>
+          <div class="day-grid">
+            <div>
+              <div class="box">
+                <h4>Was heute ansteht</h4>
+                <ul>
+                  <li>Insel- und Küstenannäherung</li>
+                  <li>immer dramatischere Linien in der Landschaft</li>
+                  <li>Vorfreude auf Lofoten ohne vollen Hotspot-Druck</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Tagesfokus</h4>
+                <p>Flexibel bleiben. Heute lieber sauber ankommen als unterwegs jeden Aussichtspunkt mitnehmen.</p>
+              </div>
+            </div>
+            <div>
+              <div class="box">
+                <h4>Gefahren / Risiken</h4>
+                <ul>
+                  <li>Fährzeiten zerhacken den Tag</li>
+                  <li>touristische Verdichtung</li>
+                  <li>zu ambitionierte Erwartungen an die Lofoten</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Übernachtung</h4>
+                <p>Camping Richtung Ramberg/Flakstad oder Basecamp-artiges Hotel</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="day panel">
+          <h3>Tag 11 · Lofoten light + 2–4h Wanderung</h3>
+          <div class="meta">wenig fahren · bewusst Raum für Gehen und Schauen</div>
+          <div class="day-image">
+            <img src="media/tag11.jpg" alt="Tag 11 · Lofoten light + 2–4h Wanderung">
+            <div class="caption">Kompakt spektakulär. Hier gewinnt, wer nicht alles in einen Tag stopft.</div>
+          </div>
+          <div class="day-grid">
+            <div>
+              <div class="box">
+                <h4>Was heute ansteht</h4>
+                <ul>
+                  <li>Ramberg-Region</li>
+                  <li>Reine als Bild, nicht als Pflichtprogramm</li>
+                  <li>kurze Wanderung mit Aussicht statt Sportprojekt</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Tagesfokus</h4>
+                <p>Heute weniger sammeln, mehr erleben. Eine gute Wanderung reicht vollkommen.</p>
+              </div>
+            </div>
+            <div>
+              <div class="box">
+                <h4>Gefahren / Risiken</h4>
+                <ul>
+                  <li>Überladen des Tages</li>
+                  <li>volle Hotspots zur falschen Zeit</li>
+                  <li>Park-/Haltechaos an offensichtlichen Spots</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Übernachtung</h4>
+                <p>Camping früh sichern oder eine ruhige Unterkunft für echte Erholung</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="day panel">
+          <h3>Tag 12 · Lofoten → südlicher raus, wieder mehr Flow</h3>
+          <div class="meta">ca. 250–300 km · raus aus der Postkartendichte</div>
+          <div class="day-image">
+            <img src="media/tag12.jpg" alt="Tag 12 · Lofoten → südlicher raus, wieder mehr Flow">
+            <div class="caption">Wieder Strecke statt Kulissenkonsum. Oft fahrerisch besser als die Hotspots.</div>
+          </div>
+          <div class="day-grid">
+            <div>
+              <div class="box">
+                <h4>Was heute ansteht</h4>
+                <ul>
+                  <li>ruhigere Küstenabschnitte</li>
+                  <li>wieder mehr Platz auf der Straße</li>
+                  <li>ein Tag, der oft unterschätzt wird</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Tagesfokus</h4>
+                <p>Den Kopf wieder auf Fahren stellen. Weniger 'ich muss noch', mehr 'ich will heute schön rollen'.</p>
+              </div>
+            </div>
+            <div>
+              <div class="box">
+                <h4>Gefahren / Risiken</h4>
+                <ul>
+                  <li>zu spät starten</li>
+                  <li>Wetterumschwünge an der Küste</li>
+                  <li>nach Lofoten im Kopf noch festhängen</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Übernachtung</h4>
+                <p>Ruhiger Küsten-Zeltplatz oder spontan kleine Hütte/Unterkunft</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="day panel">
+          <h3>Tag 13 · Küste/Fjordlogik → Atlantic Ocean Road</h3>
+          <div class="meta">ca. 280–320 km · ikonisch, aber kurz</div>
+          <div class="day-image">
+            <img src="media/tag13.jpg" alt="Tag 13 · Küste/Fjordlogik → Atlantic Ocean Road">
+            <div class="caption">Die Straße ist kurz. Der Tag muss von mehr leben – und genau das tut er.</div>
+          </div>
+          <div class="day-grid">
+            <div>
+              <div class="box">
+                <h4>Was heute ansteht</h4>
+                <ul>
+                  <li>Atlantic Ocean Road selbst</li>
+                  <li>die Meeresstimmung drumherum</li>
+                  <li>kleine Küstenorte und Restplätze als Bonus</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Tagesfokus</h4>
+                <p>Nicht alles auf 8 Kilometer projizieren. Die Anfahrt und das Küstengefühl machen den Tag groß.</p>
+              </div>
+            </div>
+            <div>
+              <div class="box">
+                <h4>Gefahren / Risiken</h4>
+                <ul>
+                  <li>Wind, nasser Asphalt, viele Leute an Fotopunkten</li>
+                  <li>zu hohe Erwartung an einen kurzen Abschnitt</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Übernachtung</h4>
+                <p>Hotel küstennah heute stark, Camping nur bei stabilem Wetter wirklich schön</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="day panel">
+          <h3>Tag 14 · Atlantic Road → Trollstigen</h3>
+          <div class="meta">ca. 220–270 km · großer Norwegen-Tag</div>
+          <div class="day-image">
+            <img src="media/tag14.jpg" alt="Tag 14 · Atlantic Road → Trollstigen">
+            <div class="caption">Kurvenkino, Wasserfallkulisse, Hochgebirgsgefühl. Einer der ikonischen Tage.</div>
+          </div>
+          <div class="day-grid">
+            <div>
+              <div class="box">
+                <h4>Was heute ansteht</h4>
+                <ul>
+                  <li>Trollstigen möglichst früh oder spät</li>
+                  <li>Tal darunter als oft bessere Schlafregion</li>
+                  <li>großer Wanderblock möglich bei gutem Wetter</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Tagesfokus</h4>
+                <p>Heute passt ein halber bis ganzer Wandertag am besten. Oder du fährst die Ikone bewusst zu
+                  Randzeiten.</p>
+              </div>
+            </div>
+            <div>
+              <div class="box">
+                <h4>Gefahren / Risiken</h4>
+                <ul>
+                  <li>Busse, Stop-and-go, nasse Passagen</li>
+                  <li>zu viel Foto, zu wenig Flow</li>
+                  <li>zu spät am Pass sein</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Übernachtung</h4>
+                <p>Camping im Tal unterhalb oder Hotel als Komfortbasis für Wandern</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="day panel">
+          <h3>Tag 15 · Norwegen → Schweden / Värmland</h3>
+          <div class="meta">ca. 280–320 km · Übergang mit Sinn</div>
+          <div class="day-image">
+            <img src="media/tag15.jpg" alt="Tag 15 · Norwegen → Schweden / Värmland">
+            <div class="caption">Weniger Drama, mehr Ruhe. Kein Abstieg – der perfekte Ausklang.</div>
+          </div>
+          <div class="day-grid">
+            <div>
+              <div class="box">
+                <h4>Was heute ansteht</h4>
+                <ul>
+                  <li>Wälder, Seen, mehr Raum</li>
+                  <li>mental weiches Landen nach Norwegen</li>
+                  <li>Värmland als ideales Outdoor-Ende</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Tagesfokus</h4>
+                <p>Schweden nicht als Rest behandeln. Gerade jetzt wirkt Ruhe besonders gut.</p>
+              </div>
+            </div>
+            <div>
+              <div class="box">
+                <h4>Gefahren / Risiken</h4>
+                <ul>
+                  <li>mentaler Durchhänger nach den großen Highlights</li>
+                  <li>zu effizient werden und den Rückweg verschenken</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Übernachtung</h4>
+                <p>Wildcamp an einem See oder Spa-/Lodge-Reset in Värmland</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="day panel">
+          <h3>Tag 16 · Värmland → Südschweden</h3>
+          <div class="meta">ca. 300 km · ruhiger Roll-Tag</div>
+          <div class="day-image">
+            <img src="media/tag16.jpg" alt="Tag 16 · Värmland → Südschweden">
+            <div class="caption">Ein leiser Tag, der später oft größer wirkt als gedacht.</div>
+          </div>
+          <div class="day-grid">
+            <div>
+              <div class="box">
+                <h4>Was heute ansteht</h4>
+                <ul>
+                  <li>ruhige Kurven und Wälder</li>
+                  <li>letzte echte Draußen-Momente</li>
+                  <li>Seenstopps statt Must-Sees</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Tagesfokus</h4>
+                <p>Keine Show, kein Druck. Einfach einen guten Reisetag machen.</p>
+              </div>
+            </div>
+            <div>
+              <div class="box">
+                <h4>Gefahren / Risiken</h4>
+                <ul>
+                  <li>im Kopf schon zuhause sein</li>
+                  <li>Routine = Unachtsamkeit</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Übernachtung</h4>
+                <p>Hotel als clevere Vor-Heimweg-Nacht oder letzte Outdoor-Nacht</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="day panel">
+          <h3>Tag 17 · Südschweden → Dänemark</h3>
+          <div class="meta">ca. 280–320 km · zweckmäßig, aber nicht stumpf</div>
+          <div class="day-image">
+            <img src="media/tag17.jpg" alt="Tag 17 · Südschweden → Dänemark">
+            <div class="caption">Rückweg mit Haltung. Nicht runterspulen, sondern sauber zu Ende fahren.</div>
+          </div>
+          <div class="day-grid">
+            <div>
+              <div class="box">
+                <h4>Was heute ansteht</h4>
+                <ul>
+                  <li>letzte lange Rollphase</li>
+                  <li>mentales Sortieren der Reise</li>
+                  <li>kein unnötiger Fokus auf Dänemark</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Tagesfokus</h4>
+                <p>Heute nichts mehr beweisen. Gleichmäßig und rund zu Ende denken.</p>
+              </div>
+            </div>
+            <div>
+              <div class="box">
+                <h4>Gefahren / Risiken</h4>
+                <ul>
+                  <li>Wind kann nerven</li>
+                  <li>zu früh innerlich abschalten</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Übernachtung</h4>
+                <p>Hotel empfohlen</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="day panel">
+          <h3>Tag 18 · Dänemark → Flensburg</h3>
+          <div class="meta">letzte kurze Heimrolle</div>
+          <div class="day-image">
+            <img src="media/tag18.jpg" alt="Tag 18 · Dänemark → Flensburg">
+            <div class="caption">Die Tour endet nicht mit dem ersten Ortsschild. Fahr den Schluss bewusst.</div>
+          </div>
+          <div class="day-grid">
+            <div>
+              <div class="box">
+                <h4>Was heute ansteht</h4>
+                <ul>
+                  <li>bewusster Abschluss</li>
+                  <li>saubere Landung statt abruptem Ende</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Tagesfokus</h4>
+                <p>Nicht schon vor dem Ziel aussteigen. Die letzte Stunde gehört noch zur Reise.</p>
+              </div>
+            </div>
+            <div>
+              <div class="box">
+                <h4>Gefahren / Risiken</h4>
+                <ul>
+                  <li>Zuhause-im-Kopf-Effekt</li>
+                  <li>Unruhe, weil es vorbei ist</li>
+                </ul>
+              </div>
+              <div class="box">
+                <h4>Übernachtung</h4>
+                <p>Zuhause</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<footer>
-  <div class="wrap">
-    <p>Gebaut auf Basis deines konkreten Plans: Start/Ziel Flensburg, Juli/August, 17–18 Tage, 200–350 km pro Tag, Nordkap als Pflicht, Fokus auf Norwegen bei ausgewogenem Finnland/Schweden-Anteil, keine Autobahnen, Natur vor Städten, Mix aus Zelt und Hotel, Triumph Tiger Sport 800, wetterfest und offen für 2–4h Wanderungen plus einen großen Wandertag.</p>
-    <small class="credits">Created by LLMs refined by Humans.</small>
-  </div>
-</footer>
+  <section id="camping">
+    <div class="wrap">
+      <h2>Camping, Hotels und was wirklich sinnvoll ist</h2>
+      <div class="two">
+        <div class="panel" style="padding:24px">
+          <h3>Wildcamping</h3>
+          <ul>
+            <li><b>Finnland:</b> am entspanntesten. Viele Seen, viele ruhige Zufahrten.</li>
+            <li><b>Schweden:</b> ähnlich einfach und ideal für die ruhigen Rückweg-Tage.</li>
+            <li><b>Norwegen:</b> möglich, aber selektiver. Wind, Küstenlage und Häusernähe machen die Wahl wichtiger.
+            </li>
+            <li><b>Regel:</b> nicht perfektionistisch suchen. Ein guter Spot schlägt einen perfekten Spot, den du erst
+              bei Dunkelheit findest.</li>
+          </ul>
+        </div>
+        <div class="panel" style="padding:24px">
+          <h3>Hotel-Reset</h3>
+          <ul>
+            <li>Oulu: guter Technik-/Wäsche-Tag</li>
+            <li>Alta: ideal nach dem Nordkap</li>
+            <li>Küstennah an der Atlantic Road: atmosphärisch stark</li>
+            <li>Vor dem Heimweg: macht die letzten zwei Tage klarer und runder</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script>
-(function () {
-  const mapEl = document.getElementById('route-map');
-  if (!mapEl || typeof L === 'undefined') return;
+  <section id="wandern">
+    <div class="wrap">
+      <h2>Wandern – genau richtig eingebaut</h2>
+      <div class="grid">
+        <article class="card panel">
+          <h3>Lofoten</h3>
+          <p>2–4 Stunden reichen. Küstenblick statt Leistungstag.</p>
+        </article>
+        <article class="card panel">
+          <h3>Trollstigen-Region</h3>
+          <p>Bester Kandidat für den großen Wandertag, wenn Wetter und Beine stimmen.</p>
+        </article>
+        <article class="card panel">
+          <h3>Spontan bleibt besser</h3>
+          <p>Die Reise soll Motorradreise bleiben. Lieber gute kurze Hikes als zu viel Programm.</p>
+        </article>
+      </div>
+    </div>
+  </section>
 
-  const map = L.map('route-map', { scrollWheelZoom: false });
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 18,
-    attribution: '&copy; OpenStreetMap-Mitwirkende'
-  }).addTo(map);
+  <section id="packliste">
+    <div class="wrap">
+      <h2>Packliste – auf deine Tour zugeschnitten</h2>
+      <div class="grid">
+        <article class="card panel">
+          <h3>Bike &amp; Technik</h3>
+          <ul>
+            <li>Werkzeug, Kabelbinder, Tape</li>
+            <li>Reifenreparaturkit + Mini-Kompressor</li>
+            <li>Kettenspray, Ersatzsicherungen</li>
+            <li>Powerbank, USB, Offline-Karten</li>
+          </ul>
+        </article>
+        <article class="card panel">
+          <h3>Camping</h3>
+          <ul>
+            <li>sturmfestes Zelt</li>
+            <li>Schlafsack Komfort um 5°C</li>
+            <li>vernünftige Isomatte</li>
+            <li>Kocher + Gas + Notfallmahlzeiten</li>
+          </ul>
+        </article>
+        <article class="card panel">
+          <h3>Kleidung</h3>
+          <ul>
+            <li>Layering statt eine dicke Lösung</li>
+            <li>Midlayer / Fleece</li>
+            <li>Regenkombi trotz Membran</li>
+            <li>2 Paar Handschuhe + Mütze/Buff</li>
+          </ul>
+        </article>
+        <article class="card panel">
+          <h3>Wandern</h3>
+          <ul>
+            <li>leichte Wanderschuhe / Trailrunner</li>
+            <li>kleiner Daypack</li>
+            <li>Blasenpflaster</li>
+            <li>Wasserreserve</li>
+          </ul>
+        </article>
+        <article class="card panel">
+          <h3>Alltag</h3>
+          <ul>
+            <li>Mückenspray</li>
+            <li>Mikrofaserhandtuch</li>
+            <li>Feuchttücher</li>
+            <li>Sonnencreme</li>
+          </ul>
+        </article>
+        <article class="card panel">
+          <h3>Essen</h3>
+          <ul>
+            <li>Supermarkt statt Restaurant-Fokus</li>
+            <li>Nüsse, Riegel, Haferflocken</li>
+            <li>1–2 Notfallgerichte immer dabei</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
 
-  const route = [
-    [54.7833, 9.4333],
-    [54.3233, 10.1228],
-    [60.1699, 24.9384],
-    [61.0587, 25.6625],
-    [62.8924, 27.6782],
-    [65.0121, 25.4651],
-    [66.5039, 25.7294],
-    [68.9050, 27.0288],
-    [70.9821, 25.9747],
-    [71.1725, 25.7836],
-    [69.9689, 23.2717],
-    [69.6492, 18.9553],
-    [68.0975, 13.5720],
-    [63.0153, 7.3540],
-    [62.4559, 7.6650],
-    [59.7290, 13.2350],
-    [56.8790, 14.8059],
-    [54.7833, 9.4333]
-  ];
+  <section id="fehler">
+    <div class="wrap">
+      <h2>Die Fehler, die so eine Reise schlechter machen</h2>
+      <div class="grid">
+        <article class="card panel">
+          <h3>Zu voll planen</h3>
+          <p>Dann bist du nie wirklich da, sondern immer schon beim nächsten Punkt.</p>
+        </article>
+        <article class="card panel">
+          <h3>Nordkap überhöhen</h3>
+          <p>Wichtiges Ziel, ja. Aber Norwegen danach ist oft der schönere Teil der Reise.</p>
+        </article>
+        <article class="card panel">
+          <h3>Zu spät Spot suchen</h3>
+          <p>Hunger + Wind + Müdigkeit sind die schlechtesten Wildcamping-Berater.</p>
+        </article>
+        <article class="card panel">
+          <h3>Regen bekämpfen wollen</h3>
+          <p>In Skandinavien gewinnt, wer akzeptiert statt verhandelt.</p>
+        </article>
+        <article class="card panel">
+          <h3>Jeden Tag gleich behandeln</h3>
+          <p>Lange Etappen brauchen kurze Gegentage. Genau das hält dich frisch.</p>
+        </article>
+        <article class="card panel">
+          <h3>Schweden unterschätzen</h3>
+          <p>Der Rückweg wird stärker, wenn du ihm bewusst Wert gibst.</p>
+        </article>
+      </div>
+    </div>
+  </section>
 
-  const polyline = L.polyline(route, { color: '#7dd3fc', weight: 4, opacity: 0.9 }).addTo(map);
-  map.fitBounds(polyline.getBounds(), { padding: [24, 24] });
+  <footer>
+    <div class="wrap">
+      <p>Gebaut auf Basis deines konkreten Plans: Start/Ziel Flensburg, Juli/August, 17–18 Tage, 200–350 km pro Tag,
+        Nordkap als Pflicht, Fokus auf Norwegen bei ausgewogenem Finnland/Schweden-Anteil, keine Autobahnen, Natur vor
+        Städten, Mix aus Zelt und Hotel, Triumph Tiger Sport 800, wetterfest und offen für 2–4h Wanderungen plus einen
+        großen Wandertag.</p>
+      <small class="credits">Created by LLMs refined by Humans.</small>
+    </div>
+  </footer>
 
-  const stops = [
-    ['Flensburg', [54.7833, 9.4333]],
-    ['Helsinki', [60.1699, 24.9384]],
-    ['Kuopio', [62.8924, 27.6782]],
-    ['Oulu', [65.0121, 25.4651]],
-    ['Inari', [68.9050, 27.0288]],
-    ['Nordkap', [71.1725, 25.7836]],
-    ['Alta', [69.9689, 23.2717]],
-    ['Tromsø', [69.6492, 18.9553]],
-    ['Lofoten', [68.0975, 13.5720]],
-    ['Atlantic Ocean Road', [63.0153, 7.3540]],
-    ['Trollstigen', [62.4559, 7.6650]],
-    ['Värmland', [59.7290, 13.2350]]
-  ];
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    (function () {
+      const mapEl = document.getElementById('route-map');
+      if (!mapEl || typeof L === 'undefined') return;
 
-  stops.forEach(function(stop) {
-    L.circleMarker(stop[1], {
-      radius: 6,
-      color: '#a7f3d0',
-      fillColor: '#a7f3d0',
-      fillOpacity: 0.95,
-      weight: 2
-    }).addTo(map).bindPopup('<b>' + stop[0] + '</b>');
-  });
-}());
-</script>
+      const map = L.map('route-map', { scrollWheelZoom: false });
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 18,
+        attribution: '&copy; OpenStreetMap-Mitwirkende'
+      }).addTo(map);
+
+      const route = [
+        [54.7833, 9.4333],
+        [54.3233, 10.1228],
+        [60.1699, 24.9384],
+        [61.0587, 25.6625],
+        [62.8924, 27.6782],
+        [65.0121, 25.4651],
+        [66.5039, 25.7294],
+        [68.9050, 27.0288],
+        [70.9821, 25.9747],
+        [71.1725, 25.7836],
+        [69.9689, 23.2717],
+        [69.6492, 18.9553],
+        [68.0975, 13.5720],
+        [63.0153, 7.3540],
+        [62.4559, 7.6650],
+        [59.7290, 13.2350],
+        [56.8790, 14.8059],
+        [54.7833, 9.4333]
+      ];
+
+      const polyline = L.polyline(route, { color: '#7dd3fc', weight: 4, opacity: 0.9 }).addTo(map);
+      map.fitBounds(polyline.getBounds(), { padding: [24, 24] });
+
+      const stops = [
+        ['Flensburg', [54.7833, 9.4333]],
+        ['Helsinki', [60.1699, 24.9384]],
+        ['Kuopio', [62.8924, 27.6782]],
+        ['Oulu', [65.0121, 25.4651]],
+        ['Inari', [68.9050, 27.0288]],
+        ['Nordkap', [71.1725, 25.7836]],
+        ['Alta', [69.9689, 23.2717]],
+        ['Tromsø', [69.6492, 18.9553]],
+        ['Lofoten', [68.0975, 13.5720]],
+        ['Atlantic Ocean Road', [63.0153, 7.3540]],
+        ['Trollstigen', [62.4559, 7.6650]],
+        ['Värmland', [59.7290, 13.2350]]
+      ];
+
+      stops.forEach(function (stop) {
+        L.circleMarker(stop[1], {
+          radius: 6,
+          color: '#a7f3d0',
+          fillColor: '#a7f3d0',
+          fillOpacity: 0.95,
+          weight: 2
+        }).addTo(map).bindPopup('<b>' + stop[0] + '</b>');
+      });
+    }());
+  </script>
 
 
 
-</body></html>
+</body>
+
+</html>
